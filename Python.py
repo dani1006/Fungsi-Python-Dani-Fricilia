@@ -77,7 +77,7 @@ while pilihan !=0:
         b = int(input('b :'))
         c = int(input('c :'))
         print('Keliling segitiga :%d\n' %keliling_segitiga(a,b,c))
-       elif pilihan ==7 :
+    elif pilihan ==7 :
         print('\n')
         print('Luas lingkaran :')
         radius = int(input('radius :'))
