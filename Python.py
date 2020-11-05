@@ -64,4 +64,28 @@ while pilihan !=0:
         panjang = int(input('panjang :'))
         lebar = int(input('lebar :'))
         print('Keliling persegi panjang :%d\n' %keliling_persegi_panjang(panjang,lebar))
+     elif pilihan ==5 :
+        print('\n')
+        print('Luas segitiga')
+        alas = int(input('alas :'))
+        tinggi = int(input('tinggi :'))
+        print('Luas segitiga :%d\n' %luas_segitiga(alas,tinggi))
+    elif pilihan ==6 :
+        print('\n')
+        print('Keliling segitiga :')
+        a = int(input('a :'))
+        b = int(input('b :'))
+        c = int(input('c :'))
+        print('Keliling segitiga :%d\n' %keliling_segitiga(a,b,c))
+       elif pilihan ==7 :
+        print('\n')
+        print('Luas lingkaran :')
+        radius = int(input('radius :'))
+        print('Luas lingkaran :%d\n' %luas_lingkaran(radius))
+    if pilihan ==8 :
+        print('\n')
+        print('Keliling lingkaran :')
+        radius = int(input('radius :'))
+        print('Keliling lingkaran :%d\n' %keliling_lingkaran(radius))
+    
     
