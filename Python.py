@@ -8,3 +8,6 @@ def luas_bujur_sangkar(sisi) :
 def keliling_bujur_sangkar(sisi) :
     keliling = 4 * sisi
     return keliling
+def luas_persegi_panjang(panjang,lebar) :
+    luas = panjang * lebar
+    return luas
