@@ -64,7 +64,7 @@ while pilihan !=0:
         panjang = int(input('panjang :'))
         lebar = int(input('lebar :'))
         print('Keliling persegi panjang :%d\n' %keliling_persegi_panjang(panjang,lebar))
-     elif pilihan ==5 :
+    elif pilihan ==5 :
         print('\n')
         print('Luas segitiga')
         alas = int(input('alas :'))
