@@ -1,1 +1,0 @@
-# Fungsi-Python-Dani-Fricilia
