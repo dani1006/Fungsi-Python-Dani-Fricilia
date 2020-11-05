@@ -17,3 +17,6 @@ def keliling_persegi_panjang(panjang,lebar):
 def luas_segitiga(alas,tingi) :
     luas = 0.5 * alas * tinggi
     return luas
+def keliling_segitiga(a, b, c) :
+    keliling = a + b + c
+    return keliling
