@@ -20,3 +20,6 @@ def luas_segitiga(alas,tingi) :
 def keliling_segitiga(a, b, c) :
     keliling = a + b + c
     return keliling
+def luas_lingkaran(radius) :
+    luas = 3.14 * radius * radius
+    return luas
