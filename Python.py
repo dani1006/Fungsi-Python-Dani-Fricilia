@@ -26,3 +26,16 @@ def luas_lingkaran(radius) :
 def keliling_lingkaran(radius) :
     keliling = 2 * 3.14 * radius
     return keliling
+pilihan = 1
+while pilihan !=0:
+    print('PEMBELAJARAN MATEMATIKA SEDERHANA')
+    print('SILAHKAN PILIH OPSI')
+    print('1. Luas bujur sangkar')
+    print('2. Keliling bujur sangkar')
+    print('3. Luas persegi panjang')
+    print('4. Keliling persegi panjang')
+    print('5. Luas segitiga')
+    print('6. Keliling segitiga')
+    print('7. Luas Lingkaran')
+    print('8. Keliling Lingkaran')
+    print('0. exit')
